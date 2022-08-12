@@ -1,0 +1,23 @@
+Course-grained: treat all lines identically when they are inserted into the
+cache and only dierentiate among lines based on their their behavior while they
+reside in the cache. For example, as a line resides in the cache, its priority
+might be increased each time it is reused.
+
+By contrast, Fine-Grained policies distinguish among lines when they are
+inserted into the cache (in addition to observing their behavior while they
+reside in the cache). To make this distinction at the time of insertion,
+Fine-Grained policies typically rely on historical information about cache
+access behavior.
+
+Granularity: At what granularity are lines distinguished at the time of
+insertion? Are all cache lines treated the same, or are they assigned dierent
+priorities based on historical information?
+
+• History: How much historical information does the replacement policy utilize
+in making its decisions?
+
+Access Patterns: How specialized is the replacement policy to certain access
+patterns? Is it robust to changes in access patterns or to mixes of dierent
+access Patterns
+
+cachetie tool

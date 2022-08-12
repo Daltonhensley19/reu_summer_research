@@ -1,0 +1,120 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/dalton/desktop/stonne/stonne/N-Way-Set-Associative-L1-Cache/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210905.0/
+$(PROGRAM)	Makefile	/^$(PROGRAM): $(OBJS)$/;"	t
+CACHESET_H_	CacheSet.h	/^#define CACHESET_H_$/;"	d
+CC	Makefile	/^CC = g++$/;"	m
+CacheSet	CacheSet.cpp	/^CacheSet::CacheSet(int blocksize, int tagbits, int indexbits, int offsetbits,$/;"	f	class:CacheSet
+CacheSet	CacheSet.h	/^class CacheSet {$/;"	c
+Command Parameters?	README.md	/^# Command Parameters?$/;"	c
+Creating Binary?	README.md	/^# Creating Binary?$/;"	c
+IFLAGS	Makefile	/^IFLAGS =$/;"	m
+INS_READ	main.cc	/^#define INS_READ /;"	d	file:
+INT_SIZE	funcs.cc	/^#define INT_SIZE	/;"	d	file:
+KILOBYTE	funcs.cc	/^#define KILOBYTE	/;"	d	file:
+LDFLAGS	Makefile	/^LDFLAGS =$/;"	m
+LIBS	Makefile	/^LIBS =$/;"	m
+License	README.md	/^License$/;"	s	chapter:Structure of Program?
+MEM_READ	funcs.cc	/^#define MEM_READ /;"	d	file:
+MEM_READ	main.cc	/^#define MEM_READ /;"	d	file:
+MEM_WRITE	funcs.cc	/^#define MEM_WRITE /;"	d	file:
+MEM_WRITE	main.cc	/^#define MEM_WRITE /;"	d	file:
+N-Way-Set-Associative-Cache	README.md	/^# N-Way-Set-Associative-Cache$/;"	c
+OBJS	Makefile	/^OBJS = $(SRCS:.cc=.o)$/;"	m
+PROGRAM	Makefile	/^PROGRAM = Cache$/;"	m
+SIZEOFINT	main.cc	/^#define SIZEOFINT /;"	d	file:
+SRCS	Makefile	/^SRCS = main.cc funcs.cc cacheline.cpp common.cc CacheSet.cpp$/;"	m
+Structure of Program?	README.md	/^# Structure of Program?$/;"	c
+Trace Format and Usage?	README.md	/^# Trace Format and Usage?$/;"	c
+Write Policies on Hit/Miss?	README.md	/^# Write Policies on Hit\/Miss?$/;"	c
+__C_H_INCLUDED__	cacheline.cpp	/^#define __C_H_INCLUDED__ /;"	d	file:
+all	Makefile	/^all: $(PROGRAM)$/;"	t
+associativity	common.cc	/^   int associativity =1;$/;"	v	typeref:typename:int
+binaryToInteger	funcs.cc	/^int binaryToInteger(char *bin) {$/;"	f	typeref:typename:int
+blockSize	common.cc	/^   int blockSize = 4;$/;"	v	typeref:typename:int
+blockToWrite	main.cc	/^int blockToWrite(CacheSet* cacheset, int setNumber, cacheline line)$/;"	f	typeref:typename:int
+cacheMemmoryAllocation	funcs.cc	/^void cacheMemmoryAllocation() {$/;"	f	typeref:typename:void
+cacheline	cacheline.cpp	/^	cacheline(int blocksize,int tagbits,int indexbits,int offsetbits){$/;"	f	class:cacheline	file:
+cacheline	cacheline.cpp	/^class cacheline{$/;"	c	file:
+chacheAllocation	common.cc	/^   CacheSet *chacheAllocation;$/;"	v	typeref:typename:CacheSet *
+chacheAllocationIns	common.cc	/^   CacheSet *chacheAllocationIns;$/;"	v	typeref:typename:CacheSet *
+chacheCapacity	common.cc	/^   int chacheCapacity=0,chacheSize=0,totalChacheBlocks=0;$/;"	v	typeref:typename:int
+chacheSize	common.cc	/^   int chacheCapacity=0,chacheSize=0,totalChacheBlocks=0;$/;"	v	typeref:typename:int
+checkBlockSize	funcs.cc	/^bool checkBlockSize(int blockSize) {$/;"	f	typeref:typename:bool
+checkMemSize	funcs.cc	/^bool checkMemSize(int memSize) {$/;"	f	typeref:typename:bool
+clean	Makefile	/^clean:$/;"	t
+data	cacheline.cpp	/^unsigned int *data;$/;"	m	class:cacheline	typeref:typename:unsigned int *	file:
+datasize	common.cc	/^   int datasize=sizeof(int);$/;"	v	typeref:typename:int
+dirty	cacheline.cpp	/^int dirty;$/;"	m	class:cacheline	typeref:typename:int	file:
+dirtyBlockEvictionCounter	common.cc	/^   int dirtyBlockEvictionCounter=0;$/;"	v	typeref:typename:int
+displayCache	funcs.cc	/^void displayCache(CacheSet *cacheSet, int type) {$/;"	f	typeref:typename:void
+displayMainMemory	funcs.cc	/^void displayMainMemory() {$/;"	f	typeref:typename:void
+displayStatistics	funcs.cc	/^void displayStatistics() {$/;"	f	typeref:typename:void
+emptyoffset	funcs.cc	/^char* emptyoffset() {$/;"	f	typeref:typename:char *
+findBlockNumber	main.cc	/^int findBlockNumber(CacheSet* cacheset, int setNumber, char* tag)$/;"	f	typeref:typename:int
+findMinimumLruBlock	main.cc	/^int findMinimumLruBlock(CacheSet* cacheset, int setNumber)$/;"	f	typeref:typename:int
+findVacantBlock	main.cc	/^int findVacantBlock(CacheSet* cacheset, int setNumber)$/;"	f	typeref:typename:int
+fromAddress	cacheline.cpp	/^int fromAddress;$/;"	m	class:cacheline	typeref:typename:int	file:
+getBinary	funcs.cc	/^char *getBinary(unsigned int num) {$/;"	f	typeref:typename:char *
+getLRU	CacheSet.cpp	/^int CacheSet::getLRU(int index) {$/;"	f	class:CacheSet	typeref:typename:int
+hit	common.cc	/^   int hit = 0, miss = 0;$/;"	v	typeref:typename:int
+hitpolicy	common.cc	/^   int hitpolicy;$/;"	v	typeref:typename:int
+index	CacheSet.h	/^		int index;$/;"	m	class:CacheSet	typeref:typename:int
+index	cacheline.cpp	/^char *index;$/;"	m	class:cacheline	typeref:typename:char *	file:
+indexbits_tot	common.cc	/^   int indexbits_tot=0;$/;"	v	typeref:typename:int
+init	CacheSet.cpp	/^void CacheSet::init(int blocksize, int tagbits, int indexbits, int offsetbits,$/;"	f	class:CacheSet	typeref:typename:void
+init	cacheline.cpp	/^	void init(int chacheCapacity,int tagbits, int indexbits,int offsetbits){$/;"	f	class:cacheline	typeref:typename:void	file:
+loadBlock	main.cc	/^void loadBlock(CacheSet* cacheset,$/;"	f	typeref:typename:void
+lru	CacheSet.h	/^		unsigned char** lru;$/;"	m	class:CacheSet	typeref:typename:unsigned char **
+main	main.cc	/^int main(int arg_count, char* arg_values[])$/;"	f	typeref:typename:int
+mem_capacity	common.cc	/^   int mem_capacity = 16;$/;"	v	typeref:typename:int
+memoryOperations	main.cc	/^void memoryOperations(int ramSize, char* get_argvs[])$/;"	f	typeref:typename:void
+minimumLRUBlock	CacheSet.cpp	/^int CacheSet::minimumLRUBlock() {$/;"	f	class:CacheSet	typeref:typename:int
+miss	common.cc	/^   int hit = 0, miss = 0;$/;"	v	typeref:typename:int
+missRead	common.cc	/^   int missRead = 0, missWrite = 0;$/;"	v	typeref:typename:int
+missReadIC	common.cc	/^   int missReadIC=0;$/;"	v	typeref:typename:int
+missWrite	common.cc	/^   int missRead = 0, missWrite = 0;$/;"	v	typeref:typename:int
+missrate_read	common.cc	/^   double missrate_tot=0,missrate_read=0,missrate_write=0;$/;"	v	typeref:typename:double
+missrate_tot	common.cc	/^   double missrate_tot=0,missrate_read=0,missrate_write=0;$/;"	v	typeref:typename:double
+missrate_write	common.cc	/^   double missrate_tot=0,missrate_read=0,missrate_write=0;$/;"	v	typeref:typename:double
+noofblocks	CacheSet.h	/^	int noofblocks;$/;"	m	class:CacheSet	typeref:typename:int
+offset	cacheline.cpp	/^char *offset;$/;"	m	class:cacheline	typeref:typename:char *	file:
+offsetbits_tot	common.cc	/^   int offsetbits_tot=0;$/;"	v	typeref:typename:int
+parseMemoryAddress	funcs.cc	/^void parseMemoryAddress(char *bformatted, char* tag, char* index,$/;"	f	typeref:typename:void
+parseParams	funcs.cc	/^bool parseParams(int argc, char *argv[], int& mem_capacity, int& blockSize,$/;"	f	typeref:typename:bool
+ramAllocation	common.cc	/^   unsigned int* ramAllocation;$/;"	v	typeref:typename:unsigned int *
+ramMemmoryAllocation	funcs.cc	/^void ramMemmoryAllocation() {$/;"	f	typeref:typename:void
+ramSize	common.cc	/^   int ramSize = 0;$/;"	v	typeref:typename:int
+readDataCache	funcs.cc	/^unsigned int readDataCache(int index, int blockNoInSet, int offset) {$/;"	f	typeref:typename:unsigned int
+readDataRamInt	funcs.cc	/^unsigned int readDataRamInt(int index) {$/;"	f	typeref:typename:unsigned int
+set	CacheSet.h	/^		cacheline *set;$/;"	m	class:CacheSet	typeref:typename:cacheline *
+split	common.cc	/^   bool split = false;$/;"	v	typeref:typename:bool
+tag	cacheline.cpp	/^char *tag;$/;"	m	class:cacheline	typeref:typename:char *	file:
+tagbits_tot	common.cc	/^   int tagbits_tot=0;$/;"	v	typeref:typename:int
+totalCacheSets	common.cc	/^   int totalCacheSets=0;$/;"	v	typeref:typename:int
+totalChacheBlocks	common.cc	/^   int chacheCapacity=0,chacheSize=0,totalChacheBlocks=0;$/;"	v	typeref:typename:int
+totalICReads	common.cc	/^   int totalICReads=0;$/;"	v	typeref:typename:int
+totalWords	common.cc	/^   int totalWords = 0;$/;"	v	typeref:typename:int
+total_Read	common.cc	/^   int total_Read = 0;$/;"	v	typeref:typename:int
+total_Write	common.cc	/^   int total_Write = 0;$/;"	v	typeref:typename:int
+traceFile	common.cc	/^   std::string traceFile;$/;"	v	typeref:typename:std::string
+updateDataCache	main.cc	/^void updateDataCache(CacheSet* cacheset,$/;"	f	typeref:typename:void
+updateDataRam	funcs.cc	/^void updateDataRam(int index, unsigned int data) {$/;"	f	typeref:typename:void
+updateLRU	CacheSet.cpp	/^void CacheSet::updateLRU(int index) {$/;"	f	class:CacheSet	typeref:typename:void
+v	cacheline.cpp	/^ int v;$/;"	m	class:cacheline	typeref:typename:int	file:
+wordAddress	funcs.cc	/^std::string wordAddress(int i) {$/;"	f	typeref:typename:std::string
+writeAllocate	common.cc	/^   bool writeAllocate=true;$/;"	v	typeref:typename:bool
+writeBack	common.cc	/^   bool writeBack=true;$/;"	v	typeref:typename:bool
+writeBlock	main.cc	/^void writeBlock(CacheSet* cacheset,$/;"	f	typeref:typename:void
+writeNoAllocate	common.cc	/^   bool writeNoAllocate=false;$/;"	v	typeref:typename:bool
+writeThrough	common.cc	/^   bool writeThrough=false;$/;"	v	typeref:typename:bool
+writepolicy	common.cc	/^   int writepolicy;$/;"	v	typeref:typename:int
+~CacheSet	CacheSet.cpp	/^CacheSet::~CacheSet() {$/;"	f	class:CacheSet

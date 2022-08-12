@@ -1,0 +1,542 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-O3",
+      "-Iinclude/",
+      "-Iexternal/",
+      "-c",
+      "-o",
+      "objs/AccumulationBuffer.o",
+      "src/AccumulationBuffer.cpp"
+    ],
+    "directory": "/home/dalton/desktop/stonne/stonne",
+    "file": "/home/dalton/desktop/stonne/stonne/src/AccumulationBuffer.cpp",
+    "output": "/home/dalton/desktop/stonne/stonne/objs/AccumulationBuffer.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-O3",
+      "-Iinclude/",
+      "-Iexternal/",
+      "-c",
+      "-o",
+      "objs/Accumulator.o",
+      "src/Accumulator.cpp"
+    ],
+    "directory": "/home/dalton/desktop/stonne/stonne",
+    "file": "/home/dalton/desktop/stonne/stonne/src/Accumulator.cpp",
+    "output": "/home/dalton/desktop/stonne/stonne/objs/Accumulator.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-O3",
+      "-Iinclude/",
+      "-Iexternal/",
+      "-c",
+      "-o",
+      "objs/ASNetwork.o",
+      "src/ASNetwork.cpp"
+    ],
+    "directory": "/home/dalton/desktop/stonne/stonne",
+    "file": "/home/dalton/desktop/stonne/stonne/src/ASNetwork.cpp",
+    "output": "/home/dalton/desktop/stonne/stonne/objs/ASNetwork.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-O3",
+      "-Iinclude/",
+      "-Iexternal/",
+      "-c",
+      "-o",
+      "objs/ASwitch.o",
+      "src/ASwitch.cpp"
+    ],
+    "directory": "/home/dalton/desktop/stonne/stonne",
+    "file": "/home/dalton/desktop/stonne/stonne/src/ASwitch.cpp",
+    "output": "/home/dalton/desktop/stonne/stonne/objs/ASwitch.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-O3",
+      "-Iinclude/",
+      "-Iexternal/",
+      "-c",
+      "-o",
+      "objs/CollectionBus.o",
+      "src/CollectionBus.cpp"
+    ],
+    "directory": "/home/dalton/desktop/stonne/stonne",
+    "file": "/home/dalton/desktop/stonne/stonne/src/CollectionBus.cpp",
+    "output": "/home/dalton/desktop/stonne/stonne/objs/CollectionBus.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-O3",
+      "-Iinclude/",
+      "-Iexternal/",
+      "-c",
+      "-o",
+      "objs/CollectionBusLine.o",
+      "src/CollectionBusLine.cpp"
+    ],
+    "directory": "/home/dalton/desktop/stonne/stonne",
+    "file": "/home/dalton/desktop/stonne/stonne/src/CollectionBusLine.cpp",
+    "output": "/home/dalton/desktop/stonne/stonne/objs/CollectionBusLine.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-O3",
+      "-Iinclude/",
+      "-Iexternal/",
+      "-c",
+      "-o",
+      "objs/CompilerART.o",
+      "src/CompilerART.cpp"
+    ],
+    "directory": "/home/dalton/desktop/stonne/stonne",
+    "file": "/home/dalton/desktop/stonne/stonne/src/CompilerART.cpp",
+    "output": "/home/dalton/desktop/stonne/stonne/objs/CompilerART.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-O3",
+      "-Iinclude/",
+      "-Iexternal/",
+      "-c",
+      "-o",
+      "objs/CompilerFEN.o",
+      "src/CompilerFEN.cpp"
+    ],
+    "directory": "/home/dalton/desktop/stonne/stonne",
+    "file": "/home/dalton/desktop/stonne/stonne/src/CompilerFEN.cpp",
+    "output": "/home/dalton/desktop/stonne/stonne/objs/CompilerFEN.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-O3",
+      "-Iinclude/",
+      "-Iexternal/",
+      "-c",
+      "-o",
+      "objs/CompilerMSN.o",
+      "src/CompilerMSN.cpp"
+    ],
+    "directory": "/home/dalton/desktop/stonne/stonne",
+    "file": "/home/dalton/desktop/stonne/stonne/src/CompilerMSN.cpp",
+    "output": "/home/dalton/desktop/stonne/stonne/objs/CompilerMSN.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-O3",
+      "-Iinclude/",
+      "-Iexternal/",
+      "-c",
+      "-o",
+      "objs/CompilerMultiplierMesh.o",
+      "src/CompilerMultiplierMesh.cpp"
+    ],
+    "directory": "/home/dalton/desktop/stonne/stonne",
+    "file": "/home/dalton/desktop/stonne/stonne/src/CompilerMultiplierMesh.cpp",
+    "output": "/home/dalton/desktop/stonne/stonne/objs/CompilerMultiplierMesh.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-O3",
+      "-Iinclude/",
+      "-Iexternal/",
+      "-c",
+      "-o",
+      "objs/Config.o",
+      "src/Config.cpp"
+    ],
+    "directory": "/home/dalton/desktop/stonne/stonne",
+    "file": "/home/dalton/desktop/stonne/stonne/src/Config.cpp",
+    "output": "/home/dalton/desktop/stonne/stonne/objs/Config.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-O3",
+      "-Iinclude/",
+      "-Iexternal/",
+      "-c",
+      "-o",
+      "objs/Connection.o",
+      "src/Connection.cpp"
+    ],
+    "directory": "/home/dalton/desktop/stonne/stonne",
+    "file": "/home/dalton/desktop/stonne/stonne/src/Connection.cpp",
+    "output": "/home/dalton/desktop/stonne/stonne/objs/Connection.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-O3",
+      "-Iinclude/",
+      "-Iexternal/",
+      "-c",
+      "-o",
+      "objs/DataPackage.o",
+      "src/DataPackage.cpp"
+    ],
+    "directory": "/home/dalton/desktop/stonne/stonne",
+    "file": "/home/dalton/desktop/stonne/stonne/src/DataPackage.cpp",
+    "output": "/home/dalton/desktop/stonne/stonne/objs/DataPackage.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-O3",
+      "-Iinclude/",
+      "-Iexternal/",
+      "-c",
+      "-o",
+      "objs/DNNLayer.o",
+      "src/DNNLayer.cpp"
+    ],
+    "directory": "/home/dalton/desktop/stonne/stonne",
+    "file": "/home/dalton/desktop/stonne/stonne/src/DNNLayer.cpp",
+    "output": "/home/dalton/desktop/stonne/stonne/objs/DNNLayer.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-O3",
+      "-Iinclude/",
+      "-Iexternal/",
+      "-c",
+      "-o",
+      "objs/DNNModel.o",
+      "src/DNNModel.cpp"
+    ],
+    "directory": "/home/dalton/desktop/stonne/stonne",
+    "file": "/home/dalton/desktop/stonne/stonne/src/DNNModel.cpp",
+    "output": "/home/dalton/desktop/stonne/stonne/objs/DNNModel.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-O3",
+      "-Iinclude/",
+      "-Iexternal/",
+      "-c",
+      "-o",
+      "objs/DSNetwork.o",
+      "src/DSNetwork.cpp"
+    ],
+    "directory": "/home/dalton/desktop/stonne/stonne",
+    "file": "/home/dalton/desktop/stonne/stonne/src/DSNetwork.cpp",
+    "output": "/home/dalton/desktop/stonne/stonne/objs/DSNetwork.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-O3",
+      "-Iinclude/",
+      "-Iexternal/",
+      "-c",
+      "-o",
+      "objs/DSNetworkTop.o",
+      "src/DSNetworkTop.cpp"
+    ],
+    "directory": "/home/dalton/desktop/stonne/stonne",
+    "file": "/home/dalton/desktop/stonne/stonne/src/DSNetworkTop.cpp",
+    "output": "/home/dalton/desktop/stonne/stonne/objs/DSNetworkTop.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-O3",
+      "-Iinclude/",
+      "-Iexternal/",
+      "-c",
+      "-o",
+      "objs/DSwitch.o",
+      "src/DSwitch.cpp"
+    ],
+    "directory": "/home/dalton/desktop/stonne/stonne",
+    "file": "/home/dalton/desktop/stonne/stonne/src/DSwitch.cpp",
+    "output": "/home/dalton/desktop/stonne/stonne/objs/DSwitch.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-O3",
+      "-Iinclude/",
+      "-Iexternal/",
+      "-c",
+      "-o",
+      "objs/FEASwitch.o",
+      "src/FEASwitch.cpp"
+    ],
+    "directory": "/home/dalton/desktop/stonne/stonne",
+    "file": "/home/dalton/desktop/stonne/stonne/src/FEASwitch.cpp",
+    "output": "/home/dalton/desktop/stonne/stonne/objs/FEASwitch.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-O3",
+      "-Iinclude/",
+      "-Iexternal/",
+      "-c",
+      "-o",
+      "objs/FENetwork.o",
+      "src/FENetwork.cpp"
+    ],
+    "directory": "/home/dalton/desktop/stonne/stonne",
+    "file": "/home/dalton/desktop/stonne/stonne/src/FENetwork.cpp",
+    "output": "/home/dalton/desktop/stonne/stonne/objs/FENetwork.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-O3",
+      "-Iinclude/",
+      "-Iexternal/",
+      "-c",
+      "-o",
+      "objs/Fifo.o",
+      "src/Fifo.cpp"
+    ],
+    "directory": "/home/dalton/desktop/stonne/stonne",
+    "file": "/home/dalton/desktop/stonne/stonne/src/Fifo.cpp",
+    "output": "/home/dalton/desktop/stonne/stonne/objs/Fifo.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-O3",
+      "-Iinclude/",
+      "-Iexternal/",
+      "-c",
+      "-o",
+      "objs/LookupTable.o",
+      "src/LookupTable.cpp"
+    ],
+    "directory": "/home/dalton/desktop/stonne/stonne",
+    "file": "/home/dalton/desktop/stonne/stonne/src/LookupTable.cpp",
+    "output": "/home/dalton/desktop/stonne/stonne/objs/LookupTable.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-O3",
+      "-Iinclude/",
+      "-Iexternal/",
+      "-c",
+      "-o",
+      "objs/main.o",
+      "src/main.cpp"
+    ],
+    "directory": "/home/dalton/desktop/stonne/stonne",
+    "file": "/home/dalton/desktop/stonne/stonne/src/main.cpp",
+    "output": "/home/dalton/desktop/stonne/stonne/objs/main.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-O3",
+      "-Iinclude/",
+      "-Iexternal/",
+      "-c",
+      "-o",
+      "objs/MSNetwork.o",
+      "src/MSNetwork.cpp"
+    ],
+    "directory": "/home/dalton/desktop/stonne/stonne",
+    "file": "/home/dalton/desktop/stonne/stonne/src/MSNetwork.cpp",
+    "output": "/home/dalton/desktop/stonne/stonne/objs/MSNetwork.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-O3",
+      "-Iinclude/",
+      "-Iexternal/",
+      "-c",
+      "-o",
+      "objs/MSwitch.o",
+      "src/MSwitch.cpp"
+    ],
+    "directory": "/home/dalton/desktop/stonne/stonne",
+    "file": "/home/dalton/desktop/stonne/stonne/src/MSwitch.cpp",
+    "output": "/home/dalton/desktop/stonne/stonne/objs/MSwitch.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-O3",
+      "-Iinclude/",
+      "-Iexternal/",
+      "-c",
+      "-o",
+      "objs/MultiplierOS.o",
+      "src/MultiplierOS.cpp"
+    ],
+    "directory": "/home/dalton/desktop/stonne/stonne",
+    "file": "/home/dalton/desktop/stonne/stonne/src/MultiplierOS.cpp",
+    "output": "/home/dalton/desktop/stonne/stonne/objs/MultiplierOS.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-O3",
+      "-Iinclude/",
+      "-Iexternal/",
+      "-c",
+      "-o",
+      "objs/OSMeshMN.o",
+      "src/OSMeshMN.cpp"
+    ],
+    "directory": "/home/dalton/desktop/stonne/stonne",
+    "file": "/home/dalton/desktop/stonne/stonne/src/OSMeshMN.cpp",
+    "output": "/home/dalton/desktop/stonne/stonne/objs/OSMeshMN.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-O3",
+      "-Iinclude/",
+      "-Iexternal/",
+      "-c",
+      "-o",
+      "objs/OSMeshSDMemory.o",
+      "src/OSMeshSDMemory.cpp"
+    ],
+    "directory": "/home/dalton/desktop/stonne/stonne",
+    "file": "/home/dalton/desktop/stonne/stonne/src/OSMeshSDMemory.cpp",
+    "output": "/home/dalton/desktop/stonne/stonne/objs/OSMeshSDMemory.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-O3",
+      "-Iinclude/",
+      "-Iexternal/",
+      "-c",
+      "-o",
+      "objs/SDMemory.o",
+      "src/SDMemory.cpp"
+    ],
+    "directory": "/home/dalton/desktop/stonne/stonne",
+    "file": "/home/dalton/desktop/stonne/stonne/src/SDMemory.cpp",
+    "output": "/home/dalton/desktop/stonne/stonne/objs/SDMemory.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-O3",
+      "-Iinclude/",
+      "-Iexternal/",
+      "-c",
+      "-o",
+      "objs/SparseSDMemory.o",
+      "src/SparseSDMemory.cpp"
+    ],
+    "directory": "/home/dalton/desktop/stonne/stonne",
+    "file": "/home/dalton/desktop/stonne/stonne/src/SparseSDMemory.cpp",
+    "output": "/home/dalton/desktop/stonne/stonne/objs/SparseSDMemory.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-O3",
+      "-Iinclude/",
+      "-Iexternal/",
+      "-c",
+      "-o",
+      "objs/Stats.o",
+      "src/Stats.cpp"
+    ],
+    "directory": "/home/dalton/desktop/stonne/stonne",
+    "file": "/home/dalton/desktop/stonne/stonne/src/Stats.cpp",
+    "output": "/home/dalton/desktop/stonne/stonne/objs/Stats.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-O3",
+      "-Iinclude/",
+      "-Iexternal/",
+      "-c",
+      "-o",
+      "objs/STONNEModel.o",
+      "src/STONNEModel.cpp"
+    ],
+    "directory": "/home/dalton/desktop/stonne/stonne",
+    "file": "/home/dalton/desktop/stonne/stonne/src/STONNEModel.cpp",
+    "output": "/home/dalton/desktop/stonne/stonne/objs/STONNEModel.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-O3",
+      "-Iinclude/",
+      "-Iexternal/",
+      "-c",
+      "-o",
+      "objs/TemporalRN.o",
+      "src/TemporalRN.cpp"
+    ],
+    "directory": "/home/dalton/desktop/stonne/stonne",
+    "file": "/home/dalton/desktop/stonne/stonne/src/TemporalRN.cpp",
+    "output": "/home/dalton/desktop/stonne/stonne/objs/TemporalRN.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-O3",
+      "-Iinclude/",
+      "-Iexternal/",
+      "-c",
+      "-o",
+      "objs/testbench.o",
+      "src/testbench.cpp"
+    ],
+    "directory": "/home/dalton/desktop/stonne/stonne",
+    "file": "/home/dalton/desktop/stonne/stonne/src/testbench.cpp",
+    "output": "/home/dalton/desktop/stonne/stonne/objs/testbench.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-O3",
+      "-Iinclude/",
+      "-Iexternal/",
+      "-c",
+      "-o",
+      "objs/Tile.o",
+      "src/Tile.cpp"
+    ],
+    "directory": "/home/dalton/desktop/stonne/stonne",
+    "file": "/home/dalton/desktop/stonne/stonne/src/Tile.cpp",
+    "output": "/home/dalton/desktop/stonne/stonne/objs/Tile.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-O3",
+      "-Iinclude/",
+      "-Iexternal/",
+      "-c",
+      "-o",
+      "objs/utility.o",
+      "src/utility.cpp"
+    ],
+    "directory": "/home/dalton/desktop/stonne/stonne",
+    "file": "/home/dalton/desktop/stonne/stonne/src/utility.cpp",
+    "output": "/home/dalton/desktop/stonne/stonne/objs/utility.o"
+  }
+]

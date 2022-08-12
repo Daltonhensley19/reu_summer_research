@@ -1,0 +1,4 @@
+
+Average distance with which an address is reused: 6.156
+Total number of addresses accessed: 160
+Total number of unique addresses accessed: 32  (20%  lower is better)

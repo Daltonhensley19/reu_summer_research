@@ -1,0 +1,24 @@
+Goal: Optimize the energy efficiency of flexible DNN accelerators through
+investigating its internal architecture.
+
+In digital electronics, the power–delay product (PDP) is a figure of merit
+correlated with the energy efficiency of a logic gate or logic family.[1] Also
+known as switching energy, it is the product of power consumption P (averaged
+over a switching event) times the input–output delay or duration of the
+switching event D
+
+
+Questions: 
+
+    * Can we optimize reads and writes into and from the Global Buffer by
+    exploiting temporal and special locality (I.e., data reuse through
+    caching)?
+
+    * Can data reads and writes be more efficiently processed through SIMD (this
+    could be validated by extending STONNE) ? This is a big question due to the
+    math-heavy nature of matrix multiplications in machine learning.  
+
+
+
+    * Can we use network compression algorithms from graph theory to reduce network
+    complexity (which would save energy) while minimizing accuracy loss? 
